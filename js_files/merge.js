@@ -1,4 +1,4 @@
-//let delay = 30;
+
 async function merge(ele, low, mid, high){
     console.log('In merge()');
     console.log(`low=${low}, mid=${mid}, high=${high}`);
@@ -31,7 +31,7 @@ async function merge(ele, low, mid, high){
         console.log('In merge while loop');
         console.log(parseInt(left[i]), parseInt(right[j]));
         
-        // To add color for which two r being compared for merging
+        
         
         if(parseInt(left[i]) <= parseInt(right[j])){
             console.log('In merge while loop if');
